@@ -2,7 +2,7 @@
 
 ## Start by writing the SQL query or queries which will select the data that you want to import to Elasticsearch. 
 
-sql```
+```sql
 with ulice as (
 	select * from planet_osm_line p1
 	where p1.name is not null   
